@@ -6,7 +6,7 @@
 /* Hold the ESC key while plugging in the keyboard to enter bootloader mode */
 #define BOOTMAGIC_KEY_SALT KC_NO    // No modifier needed
 #define BOOTMAGIC_KEY_SALT2 KC_NO   // No second modifier needed
-#define BOOTMAGIC_KEY_BOOT KC_ESCAPE   // Press 'ESC' key
+#define BOOTMAGIC_KEY_BOOT KC_TILDE   // Press 'KC_TILDE' key
 
 /* RGB Configuration for SK6812 MINI-E LED */
 #define WS2812_DI_PIN B7
